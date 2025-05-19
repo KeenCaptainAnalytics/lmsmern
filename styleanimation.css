@@ -1,0 +1,68 @@
+
+*{
+    margin:0px;
+}
+
+.container{
+    /* border: 10px solid black; */
+    background-color: blueviolet;
+    height:100vh;
+    width: 100vw;
+    /* vh = > view height */
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    width:100vw;
+    color:rgba(255, 255, 255, 0);
+    animation-name: text;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes text {
+    0%{
+        color:black;
+    }
+    100%{
+        color:rgba(0, 0, 0);
+    }
+    
+}
+/* A(Delhi)(3)-B(mathura)-(3)C(kanpur)  => 6hours */
+.square{
+    background-color: red;
+    width:100px;
+    height: 100px;
+    /* margin-left: 100px; */
+    animation-name: slider;
+    
+    animation-timing-function:ease-in;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes slider {
+   
+     0%{
+        transform: rotate(0deg);
+        margin-left: 0vw;
+        background-color: rgb(255, 65, 65);
+     }
+    100%{
+        transform: rotate(360deg);
+        margin-left: 0vw;
+        background-color: black;
+    }
+
+}
+
+/* body{
+    border: 10px solid black;
+    padding: 10px;
+
+} */

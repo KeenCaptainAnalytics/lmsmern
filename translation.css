@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+}
+.container{
+    background-color: rgb(115, 0, 255);
+    height:100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* perspective-origin: top right;/ */
+    perspective: 400px;
+}
+
+.box{
+    width:100px;
+    height:100px;
+    background-color: rgb(225, 255, 1);
+    animation-name: translation;
+    animation-timing-function: linear;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes translation {
+    0%{
+        
+        transform: rotateY(0deg);
+        /* transform: skew(45deg) */
+        /* transform:  translate3d(0px, 0px , 0px); */
+
+        /* transform: translateZ(0px); */
+        /* transform:  rotate3d(-1, 1, 0, 0deg); */
+        /* transform: rotateX(0deg); */
+        /* transform: rotateY(0deg);
+        transform: rotateZ(0deg); */
+    }
+    100%{
+        transform: rotateY(360deg)
+        /* transform: skew(120deg); */
+        /* transform:  translate3d(100px , 200px , -300px); */
+        /* transform: translateZ(-100px); */
+        /* transform:  rotate3d(-1, 1, 0, 360deg); */
+        /* transform: rotateX(90deg); */
+        /* transform: rotateY(90deg); */
+        /* transform: rotateZ(90deg); */
+    }
+}

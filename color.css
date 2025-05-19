@@ -1,0 +1,17 @@
+.box{
+    width:300px;
+    height:200px;
+    /* background-color:black; */
+    /* background-color: rgb(200, 145, 145, 0.3); */
+    position:absolute;
+    top:100px;
+    background:rgb(25, 140, 34);
+    /* background-color: #4714ff55; */
+    /* hex=>0-f  */
+    /* red => 8bits => 4bits  */
+    /* background-color: hsl(300,40%, 50%, 0.5); */
+    /* hue saturation lightness */
+    /* red =0 -255
+    green => 0 -255
+    blue =0-255 */
+}

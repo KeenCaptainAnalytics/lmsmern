@@ -1,0 +1,59 @@
+body{
+    margin:0px;
+    background-color: black;
+}
+h1{
+    text-align: center;
+    /* border: 5px solid black; */
+    box-shadow: 0px 0px 40px rgb(208, 152, 54);
+    border-radius: 10px;
+    background-color: rgb(226, 226, 76);
+    padding:20px;
+    position: fixed;
+    display: block;
+    width:100%;
+    top:0px;
+    margin: 0px;
+
+}
+
+div{
+    background-color: black;
+    width:200px;
+    height:200px;
+    margin:50px;
+}
+
+/* postion => static */
+#box1{
+    background-color: red;
+
+}
+
+#box2{
+    background-color: green;
+    /* position: relative;
+    top:100px;
+    left:200px; */
+    /* position: absolute;
+    top:100px;
+    left:400px; */
+}
+#box3{
+    background-color: orangered;
+}
+#box4{
+    background-color: blue;
+}
+#box5{
+    background-color: palevioletred;
+}
+
+#boxwhite{
+    background-color: white;
+    position: sticky;
+    top:400px;
+}
+
+
+/* postion: static , absolute, relative, fixed, sticky */
