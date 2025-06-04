@@ -1,4 +1,4 @@
-
+// prototype chaining
 let poojaObj = {
     name :"pooja",
     money:10000
